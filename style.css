@@ -1,0 +1,25 @@
+body {
+  background-color: aqua;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+body,
+html {
+  height: 100%;
+}
+h1 {
+  margin: 5rem;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+}
+.card {
+  transition: transform 0.5s;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card img {
+  width: 100%;
+}
